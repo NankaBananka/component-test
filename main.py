@@ -1,4 +1,4 @@
-```#import necessary libraries
+#import necessary libraries
 import requests
 import pandas as pd
 
@@ -12,4 +12,4 @@ with open('out/tables/titanic.csv', 'wb') as f:
 
 #read output file and print to console log first 10 rows
 data = pd.read_csv('out/tables/titanic.csv', header=0)
-print(data.loc[0:10,["Name", "Survived"]])```
+print(data.loc[0:10,["Name", "Survived"]])
