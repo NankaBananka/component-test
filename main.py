@@ -1,3 +1,7 @@
+import os
+print(os.getcwd())
+
+
 #import necessary libraries
 import requests
 import pandas as pd
