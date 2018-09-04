@@ -1,3 +1,4 @@
 import os
-print(os.listdir("/data"))
-print(os.listdir("/data/repository"))
+print("root", os.listdir("/data"))
+print("root/repository", os.listdir("/data/repository"))
+print(os.listdir())
