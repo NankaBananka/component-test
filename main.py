@@ -1,5 +1,11 @@
 import os
 print("root", os.listdir("/data"))
 print("root/repository", os.listdir("/data/repository"))
-print(os.listdir())
-print(os.listdir("Dockerfile"))
+list_dir = os.listdir())
+
+for i in list_dir:
+  print(os.isdir(i), i)
+
+
+
+
