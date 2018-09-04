@@ -12,3 +12,4 @@ for i in os.listdir("../"):
 
 
 
+print("parent", os.listdir("../../"))
