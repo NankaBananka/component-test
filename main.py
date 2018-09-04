@@ -8,7 +8,7 @@ print(os.getcwd())
 
 #request url and save response to variable
 #url = 'http://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv'
-3r = requests.get(url)
+#r = requests.get(url)
 
 #create or open (if exist) output file for writing and write the content of the response
 #with open('/data/out/tables/titanic.csv', 'wb') as f:  
