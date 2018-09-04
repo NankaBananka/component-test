@@ -4,7 +4,7 @@ print("root/repository", os.listdir("/data/repository"))
 list_dir = os.listdir()
 
 for i in list_dir:
-  print(os.isdir(i), i)
+  print(os.path.isdir(i), i)
 
 
 
