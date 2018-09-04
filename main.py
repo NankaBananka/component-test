@@ -7,6 +7,10 @@ for i in list_dir:
   print(os.path.isdir(i), i)
 
 print("parent", os.listdir("../"))
-print("parent", os.listdir("../root"))
+
+for i in os.listdir("../"):
+  if os.path.isdir(i):
+    print(os.listdir())
+
 
 
