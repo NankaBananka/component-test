@@ -7,7 +7,7 @@ url = 'http://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.c
 r = requests.get(url)
 
 #create or open (if exist) output file for writing and write the content of the response
-with open('..out/tables/titanic.csv', 'wb') as f:  
+with open('../out/tables/titanic.csv', 'wb') as f:  
     f.write(r.content)
 
 #read output file and print to console log first 10 rows
