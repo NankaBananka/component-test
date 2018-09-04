@@ -7,6 +7,6 @@ for i in list_dir:
   print(os.path.isdir(i), i)
 
 print("parent", os.listdir("../"))
-print("parent", os.listdir("../.dockerenv"))
+print("parent", os.listdir("../root"))
 
 
