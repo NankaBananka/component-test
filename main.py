@@ -6,6 +6,7 @@ list_dir = os.listdir()
 for i in list_dir:
   print(os.path.isdir(i), i)
 
-print(os.listdir("/src"))
+print("parent", os.listdir("../"))
+
 
 
