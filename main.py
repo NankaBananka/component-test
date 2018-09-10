@@ -1,5 +1,7 @@
 #import necessary libraries
-import requests, json, pandas as pd
+import requests
+import json
+import pandas as pd
 
 #obtain url property from config.json file
 with open('/data/config.json') as f:
