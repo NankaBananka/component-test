@@ -7,6 +7,8 @@ import pandas as pd
 with open('/data/config.json') as f:
     json_data = json.load(f)
     url = json_data['parameters']['url']
+    path = json_data['parameters']['path']
+    name = json_data['parameters']['name']
     
 #request url and save response into variable
 r = requests.get(url)
