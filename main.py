@@ -18,7 +18,7 @@ full_path = '/data/out/tables/' + path
 Path.mkdir(full_path, parents=True, exist_ok=True)
 
 #create or open (if exists) output file for writing and write the content of the response
-with open(full_path + name, 'wb') as f:
+with open(full_path + "/" + name, 'wb') as f:
     f.write(r.content)
 
 #read output file and print to console log first 10 rows
