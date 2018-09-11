@@ -15,7 +15,7 @@ with open('/data/config.json') as f:
 r = requests.get(url)
 
 full_path = '/data/out/tables/' + path
-pathlib.Path(full_path).mkdir(parents=True, exist_ok=True)
+Path(full_path).mkdir(parents=True, exist_ok=True)
 
 #create or open (if exists) output file for writing and write the content of the response
 with open(full_path + "/" + name, 'wb') as f:
