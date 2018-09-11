@@ -1,5 +1,5 @@
 #import pandas library
-Import pandas as pd
+import pandas as pd
 
 #read data from file and keep it in data variable
 data = pd.read_csv('/data/in/tables/titanic.csv')
