@@ -14,6 +14,7 @@ with open('/data/config.json') as f:
 #request url and save response into variable
 r = requests.get(url)
 
+#create full path for the file, make parent directory
 full_path = '/data/out/tables/' + path + "/" + name
 Path('/data/out/tables/' + path).mkdir(parents=True, exist_ok=True)
 
